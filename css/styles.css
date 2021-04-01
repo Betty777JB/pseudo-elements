@@ -30,11 +30,15 @@ h1::before, h1::after {
 h1::before {
     left: 8px;
     border-radius: 16px 0px 0px 16px;
+    -moz-border-radius: 16px 0px 0px 16px;
+    -webkit-border-radius: 16px 0px 0px 16px;
     /* Positioneer je halve rondje met left en top */
 }
 
 h1::after {
     right: 8px;
     border-radius: 0px 16px 16px 0px;
+    -moz-border-radius: 0px 16px 16px 0px;
+    -webkit-border-radius: 0px 16px 16px 0px;
     /* Positioneer je halve rondje met left en top */
 }
